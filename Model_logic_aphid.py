@@ -57,7 +57,7 @@ class FineGrainedNet(nn.Module):
 @torch.no_grad()
 def load_model():
     model = FineGrainedNet(NUM_CLASSES).to(DEVICE)
-    state_dict = torch.load(MODEL_PATH, map_location=DEVICE)
+    state_dict = torch.load(MODEL_PATH, map_location=DEVICE, weights_only=False)
     model.load_state_dict(state_dict)
     model.eval()
     return model
@@ -99,3 +99,4 @@ remedies = {
     'aphid_more_than_500': "🔴❗ **Very Severe Infestation**: Immediate chemical treatment is recommended.",
     'mustard_healthy': "✅ Your mustard plant is healthy. Keep monitoring for early signs of aphids."
 }
+
