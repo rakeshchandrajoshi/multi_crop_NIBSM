@@ -86,7 +86,7 @@ def render_mustard_aphid():
     st.markdown("### 🎯 Or select from sample images")
     sample_images = {
         "Sample 1": "Sample/mustard_aphid/DSC_0064.JPG",
-        "Sample 2": "Sample/mustard_aphid/DS.JPG"
+        "Sample 2": "Sample/mustard_aphid/DS.JPG",
         "Sample 3": "Sample/mustard_aphid/DSC_0018.JPG",
         "Sample 4": "Sample/mustard_aphid/DSC_0039.JPG",
         "Sample 5": "Sample/mustard_aphid/DSC_0043.JPG",
@@ -103,3 +103,4 @@ def render_mustard_aphid():
 
         if st.button("🔍 Predict Diagnosis (Sample Image)", use_container_width=True):
             predict_and_display(image)
+
