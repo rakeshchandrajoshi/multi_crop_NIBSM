@@ -87,11 +87,11 @@ def preprocess_image(image):
 
 # ====== Labels ======
 class_names = [
-    "Healthy wheat plant with no white ear symptoms",
     "Wheat spike turns white early due to disease, reducing yield: Single White Ear",
     "Wheat spike turns white early due to disease, reducing yield: Double White Ear",
     "Wheat spike turns white early due to disease, reducing yield: Triple White Ear",
-    "Wheat spike turns white early due to disease, reducing yield: Multiple White Ear"
+    "Wheat spike turns white early due to disease, reducing yield: Multiple White Ear",
+    "Healthy wheat plant with no white ear symptoms",
     
 ]
 
@@ -110,3 +110,4 @@ remedies = {
     '5_6_7_white_Ear': "🔴❗ **Severe White Ear**: Multiple ears affected. Likely yield loss. Immediate intervention needed with systemic fungicide or agronomic correction.",
     '0_HEALTHY_PLANT': "✅ Your wheat plant is healthy. Maintain good irrigation, nutrient balance, and watch for early signs of ear whitening."
 }
+
