@@ -6,7 +6,8 @@ import contextlib
 # ====== Configuration ======
 IMAGE_SIZE = (512, 512)
 NUM_CLASSES = 6
-MODEL_PATH = 'best_finegrained_model2.pth'
+# MODEL_PATH = 'best_finegrained_model2.pth'
+MODEL_PATH = 'best_finegrained_model_resized.pth'
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 USE_AMP = torch.cuda.is_available()
 amp_autocast = torch.cuda.amp.autocast if USE_AMP else contextlib.nullcontext
@@ -99,6 +100,7 @@ remedies = {
     'aphid_more_than_500': "🔴❗ **Very Severe Infestation**: Immediate chemical treatment is recommended.",
     'mustard_healthy': "✅ Your mustard plant is healthy. Keep monitoring for early signs of aphids."
 }
+
 
 
 
