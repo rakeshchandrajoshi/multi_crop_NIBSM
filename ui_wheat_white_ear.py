@@ -87,7 +87,7 @@ def render_wheat_white_ear():
         "Sample 1": "Sample/wheat_white_ear/14a.JPG",
         "Sample 2": "Sample/wheat_white_ear/D.JPG",
         "Sample 3": "Sample/wheat_white_ear/IMG_20250218_101815.jpg",
-        "Sample 4": "Sample/wheat_white_ear/IMG_20250218_095215.JPG",
+        "Sample 4": "Sample/wheat_white_ear/IMG_20250218_095215.jpg",
         "Sample 5": "Sample/wheat_white_ear/IMG_20250218_113735.jpg",
     }
 
@@ -101,3 +101,4 @@ def render_wheat_white_ear():
 
         if st.button("🔍 Predict Diagnosis (Sample Image)", use_container_width=True):
             predict_and_display(image)
+
