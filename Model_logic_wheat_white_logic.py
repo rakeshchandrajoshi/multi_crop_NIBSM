@@ -99,7 +99,7 @@ original_labels = [
     '1_Single_White_Ear',
     '2_Double_White_Ear',
     '3_Triple_White_Ear',     # ✅ fixed spelling
-    '5_6_7_White_Ear',        # ✅ fixed case
+    '5_6_7_White_Ear'        # ✅ fixed case
 ]
 
 remedies = {
@@ -145,4 +145,5 @@ remedies = {
         "\n• **Possible crop loss:** {76 -- 96 %}"
     )
 }
+
 
