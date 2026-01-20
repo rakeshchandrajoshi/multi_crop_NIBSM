@@ -108,3 +108,4 @@ remedies = {
     'SCORE_9': "🔴❗ **Very Severe Infection**: Extensive mildew present. Immediate chemical fungicide intervention is required. Consider crop rotation in future.",
     'mustard_healthy': "✅ Your mustard plant appears healthy. Maintain proper spacing and monitor for early signs of powdery mildew."
 }
+
