@@ -39,5 +39,5 @@ The tool aids in mustard crop health analysis by identifying **aphid severity st
   *(Amity Centre for Artificial Intelligence (ACAI) - Amity University Noida)*
 
 - **Dr. Pankaj Sharma**, **Dr. Arkaprava Roy**, **Dr. R.K. Murali Baskaran**, **Dr. Shravani Sanyal**, **Mr. Yogesh Kumar Chelak** 
-  *(ICAR - NIBSM)*
+  *(ICAR-National Institute of Biotic Stress Management (NIBSM), Raipur, Chhattisgarh)*
 """)
